@@ -1,5 +1,13 @@
 # beautiflag
 
+### [Download from the Chrome Store](https://chrome.google.com/webstore/detail/beautiflag/ofgpfmlknkhdaobdghenekbknpglbmfb)
+
+Enhance your experience inside of your flags page.  UI improvements and responsive styling added.
+
+One day maybe this can be built in.  :)
+
+![](http://i.imgur.com/8egSTsd.png)
+
 ## Requirements
 
 - Extensions on `chrome://` urls
