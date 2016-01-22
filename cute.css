@@ -1,0 +1,204 @@
+*, :before, :after {
+	-webkit-box-sizing: inherit !important;
+	box-sizing: inherit !important;
+}
+
+html, body {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	outline: 0;
+}
+
+html {
+	-webkit-font-smoothing: subpixel-antialiased;
+	zoom: 1;
+	opacity: 1;
+	font-size: 100%;
+	line-height: 1;
+}
+
+body {
+	opacity: 1;
+	font-size: 1.125rem;
+	line-height: 1.7;
+	min-width: initial;
+	font-weight: normal;
+}
+
+a {
+	outline: 0;
+	text-decoration: none;
+	display: inline-block;
+}
+
+button {
+	color: rgb(153, 153, 153);
+	border: .0625rem rgb(55, 55, 55);
+	padding: .3125rem .625rem;
+	color: inherit;
+}
+
+a.permalink {
+	margin: .5rem 0;
+	width: 100%;
+	text-align: right;
+	color: rgb(153, 153, 170);
+	font-size: .75rem;
+}
+
+a.experiment-enable-link,
+a.experiment-disable-link,
+select {
+	border-radius: .2rem;
+	padding: .5rem .75rem;
+	font-size: 1.25rem;
+	border: .125rem solid;
+}
+
+a.experiment-enable-link {
+	background-color: rgb(78, 142, 211);
+	color: rgb(255, 255, 255);
+	border-color: transparent;
+}
+
+a.experiment-disable-link {
+	background-color: rgb(153, 153, 153);
+	color: rgb(235, 235, 235);
+}
+
+#body-container {
+	font-size: 1rem;
+	margin: 5rem auto;
+	max-width: 90%;
+	width: 100%;
+}
+
+#header {
+	margin: auto;
+	max-width: 90%;
+}
+
+#container .section-header-title {
+	font-family: "Museo Slab", Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+#container .section-header {
+	background: transparent;
+	border: none;
+	padding-top: 1.5rem;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+#container .section-header-title,
+#container .experiment-reset-all {
+	font-size: 2rem;
+}
+
+#flagsTemplate td {
+	padding: .75rem 1.5rem .9375rem;
+}
+
+.blurb-container {
+	padding: 3rem 0 2rem;
+	max-width: 80%;
+	font-size: 1rem;
+	margin: 0 auto;
+}
+
+.content {
+	font-size: inherit;
+	max-width: 75%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.experiment {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.experiment-default td {
+	background-color: rgb(224, 229, 240);
+	color: rgb(170, 170, 187);
+}
+
+.experiment-unsupported > td .experiment-name,
+.experiment-default > td .experiment-name {
+	color: rgb(157, 157, 157);
+}
+
+.experiment-name {
+	font-size: 1.25rem;
+}
+
+.experiment-name + span {
+	display: block;
+	font-size: .75rem;
+	padding: .5rem 0;
+}
+
+.experiment-unsupported > td .experiment-name ~ div > span,
+.experiment-default > td .experiment-name ~ div > span {
+	color: rgb(50, 50, 50);
+}
+
+.experiment td .experiment-name ~ div > span {
+	float: none;
+	max-width: 100%;
+}
+
+button, select {
+	background-color: rgb(255, 255, 255);
+	outline: 0;
+	outline: none;
+	float: none;
+	display: block;
+	line-height: 1;
+	margin-top: 1rem;
+	text-align: left;
+	white-space: normal;
+	font-family: inherit;
+}
+
+select {
+	max-width: 70%;
+	width: 100%;
+	margin: 0;
+}
+
+.experiment-default select {
+	color: rgb(78, 142, 211);
+}
+
+.experiment-switched select {
+	color: rgb(34, 34, 34);
+}
+
+@media screen and (min-width: 33.75rem) {
+	#body-container {
+		max-width: 60rem;
+	}
+
+	.experiment td .experiment-name ~ div > span {
+		float: left;
+		max-width: 70%;
+	}
+
+	.content {
+		max-width: 85%;
+	}
+}
+
+@media screen and (min-width: 50rem) {
+	select {
+		max-width: 100%;
+		width: auto;
+	}
+}

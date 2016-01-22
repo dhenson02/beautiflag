@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "beautiflag",
+	"description": "chrome://flags is pretty now",
+	"version": "1.0",
+	"background": {
+		"scripts": [
+			"adorable.js"
+		]
+	},
+	"icons": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"permissions": [
+		"tabs",
+		"chrome://flags/"
+	]
+}
