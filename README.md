@@ -4,7 +4,7 @@
 
 - Extensions on `chrome://` urls
   - Pass `--extensions-on-chrome-urls` as an argument to your chrome executable
-  - Or, enable here: [chrome://flags/#extensions-on-chrome-urls](chrome://flags/#extensions-on-chrome-urls)
+  - Or, enable here: `chrome://flags/#extensions-on-chrome-urls`
 
 ## Contributions
 
