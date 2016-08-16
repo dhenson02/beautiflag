@@ -22,7 +22,7 @@ Suggestions/requests and pull requests welcome.
 
 The MIT License (MIT)
 
-Copyright (c) [year] [fullname]
+Copyright (c)?  No.  Copy all you want.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
